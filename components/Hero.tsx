@@ -1,7 +1,11 @@
-export default function Hero() {
+    export default function Hero() {
   return (
-    <section className="relative h-[70vh] flex items-center justify-center bg-neutral-900">
-      <div className="absolute inset-0 bg-black/60" />
+    <section
+  className="relative flex h-[70vh] items-center justify-center bg-cover bg-center"
+  style={{
+    backgroundImage: "url('/images/hero-banner.jpg')",
+  }}
+>
 
       <div className="relative z-10 text-center px-6">
         <h1 className="text-6xl font-bold text-white">
